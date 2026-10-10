@@ -32,3 +32,8 @@ def two_sum(arr: list[int], target: int) -> list[int]:
 
 assert(two_sum([2,7,11,15], 9) == [0,1])
 assert(two_sum([11, 3, 5, 2, 8, 15], 5) == [1,3])
+
+
+
+# O(n) time -> one for loop over len(nums)
+# O(n) space -> one dictionary for lookup data structure
